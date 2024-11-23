@@ -1,0 +1,189 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+.container{
+    position: relative;
+}
+.header_text{
+    height: 250px;
+    background-color: #A67545;
+    color: white;
+    text-align: center;
+}
+
+h1 {
+    font-weight: 400;
+    font-family: "Caveat";
+    font-style: normal;
+    letter-spacing: 10px;
+    font-size: 96px;
+    padding-top: 50px;
+}
+
+.header_nav{
+    height: 100px;
+    background-color: #FAEDCD;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+h2 {
+    font-weight: 400;
+    font-family: "Caveat";
+    font-style: normal;
+    font-size: 36px;
+    display: inline-block;
+    text-align: center;
+    margin-right: 270px;
+    padding-top: 25px;
+
+    transition: transform 0.3s ease;
+}
+h2:last-child{
+    margin-right: 0px;
+}
+h2:hover{
+    color:rgb(168, 148, 92);
+    cursor: pointer;
+    transform: scale(1.2);
+}
+
+.main-content{
+    background-color: #FEFAE0;
+    height: 850px;
+    width:1300px;
+}
+.main_content_text{
+    float: right;
+    width: 650px;
+    padding-right: 26px;
+    padding-top: 26px;
+    padding-left: 26px;
+    /* position: absolute; */
+
+    font-family: "Ysabeau Office", sans-serif;
+    font-weight: 300;
+    font-size:26px;
+    font-style: normal;
+}
+span{
+    font-weight: 600;
+}
+.image_box{
+    width:fit-content;
+    padding-left: 35px;
+    padding-top: 35px;
+}
+.image1{
+    position: absolute;
+    width: 262px;
+    height: 355px;
+    background: url("../images/image1.png");
+}
+.image2{
+    position: absolute;
+    width: 262px;
+    height: 355px;
+    background: url("../images/image2.png");
+    margin-left: 300px;
+}
+.image3{
+    position: absolute;
+    width: 262px;
+    height: 355px;
+    background: url("../images/image3.png");
+    margin-top: 400px;
+}
+.image4{
+    position: absolute;
+    width: 262px;
+    height: 355px;
+    background: url("../images/image4.png");
+    margin-top: 400px;
+    margin-left: 300px;
+}
+
+.sidebar{
+    background-color: #A67545;
+    height: 850px;
+    width: 620px;
+    justify-items: center;
+    position:absolute;
+    top: 0;
+    right: 0;
+}
+.author-image{
+    position: absolute;
+    margin-left: 25px;
+    margin-top: 25px;
+    width: 566px;
+    height: 243px;
+    background: url("../images/image5.png");
+}
+
+h3{
+    color: white;
+    font-family: "Ysabeau Office", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-size:32px;
+    font-style: normal;
+    margin-top: 300px;
+}
+.sidebar-text{
+    width: 620px;
+    color: white;
+    margin-top: 40px;
+    padding-left: 100px;
+    font-family: "Ysabeau Office", sans-serif;
+    font-weight: 300;
+    font-size:26px;
+    font-style: normal;
+}
+
+
+
+
+
+.footer{
+    background-color: #D4A373;
+    height: 100px;
+    position: relative;
+    
+}
+.socials{
+    height: 100px;
+    align-content: center;
+    padding-left: 20px;
+}
+.instagram, .facebook, .twitter {
+    display: inline-block;
+    transition: transform 0.3s ease;
+    margin-right: 8px;
+}
+
+.instagram {
+    margin-bottom: 8px;
+    width: 60px;
+    height: 60px;
+    background: url("../images/instagram-icon.png") no-repeat center/contain;
+}
+
+.facebook {
+    width: 80px;
+    height: 80px;
+    background: url("../images/facebook-icon.png") no-repeat center/contain;
+}
+
+.twitter {
+    width: 80px;
+    height: 80px;
+    background: url("../images/twitter-icon.png") no-repeat center/contain;
+}
+
+.instagram:hover, .facebook:hover, .twitter:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+}
