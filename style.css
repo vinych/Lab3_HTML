@@ -168,13 +168,13 @@ h3{
     margin-bottom: 8px;
     width: 60px;
     height: 60px;
-    background: url("../images/instagram-icon.png") no-repeat center/contain;
+    background: url("./images/instagram-icon.png") no-repeat center/contain;
 }
 
 .facebook {
     width: 80px;
     height: 80px;
-    background: url("../images/facebook-icon.png") no-repeat center/contain;
+    background: url(./images/facebook-icon.png) no-repeat center/contain;
 }
 
 .twitter {
